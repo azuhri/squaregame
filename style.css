@@ -1,0 +1,74 @@
+.size-square {
+    height: 50px;
+    width: 50px;
+}
+
+.tc-primary {
+    color: #3185d6ad!important;
+}
+
+.italic {
+    font-style: italic!important;
+}
+
+.mtOff1 {
+    margin-top: -0.5rem;
+}
+
+.vh15 {
+    height: 15vh;
+}
+
+.vh85 {
+    height: 85vh;
+}
+
+.border-square {
+    border: 2px solid black;
+}
+
+.h100p {
+    height: 100%;
+}
+
+.hw500x500 {
+    width: 500px;
+    height: 500px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.containerSquare {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1441px) {
+   #containerSquare {
+       transform: scale(0.9);
+       transition: 0.5s;
+   }
+}
+
+@media only screen and (max-width: 1024px) {
+    #containerSquare {
+        transform: scale(0.8);
+        transition: 0.5s;
+    }
+ }
+
+ @media only screen and (max-width: 420px) {
+    #containerSquare {
+        transform: scale(0.7);
+        transition: 0.5s;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #containerSquare {
+        transform: scale(0.5);
+        transition: 0.5s;
+    }
+ }
